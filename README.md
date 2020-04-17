@@ -30,10 +30,10 @@ php_trim_chars('this is a very long string that should be truncated', 10);
 * img_alt      - a text description of what is in the image (for users who are visually impaired, 320 chars max)
 ```
 open_graph([
-  "title" => "COVID-19 Live Tracker",
+  "title"       => "COVID-19 Live Tracker",
   "description" => "We believe in the power of internet",
-  "img_url" => 'https://url-path/to-my/image.png',
-  "img_alt" => "We believe in the power of internet",
+  "img_url"     => 'https://url-path/to-my/image.png',
+  "img_alt"     => "We believe in the power of internet",
 ]);
 ```
   
@@ -45,10 +45,10 @@ open_graph([
 * img_alt      - a text description of the image (for users who are visually impaired, 320 chars max)
 ```
 twitter_card([
-    'handle' => '@99porings',
-    "title" => "COVID-19 Live Tracker",
+    "handle"      => '@99porings',
+    "title"       => "COVID-19 Live Tracker",
     "description" => "We believe in the power of the internet",
-    "img_url" => 'https://url-path/to-the/image.png',
-    "img_alt" => "We believe in the power of the internet",
+    "img_url"     => 'https://url-path/to-the/image.png',
+    "img_alt"     => "We believe in the power of the internet",
 ]);
 ```
