@@ -29,9 +29,9 @@ php_trim_chars('this is a very long string that should be truncated', 10);
 * img_alt      - a description of what is in the image (for users who are visually impaired, 320 chars max)
 ```
 open_graph([
-"title" => "COVID-19 Live Tracker",
-"description" => "We believe in the power of the internet and at times like these, we want to make the world(wide web) a better place",
-"img_url" => 'https://url-path/to-my/image.png',
-"img_alt" => "We believe in the power of the internet and at times like these, we want to make the world(wide web) a better place",
+  "title" => "COVID-19 Live Tracker",
+  "description" => "We believe in the power of internet",
+  "img_url" => 'https://url-path/to-my/image.png',
+  "img_alt" => "We believe in the power of internet",
 ]);
 ```
