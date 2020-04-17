@@ -13,4 +13,10 @@ helper framework for PHP
 
 ---
 
-#usage
+# Usage
+**php_trim_chars(string, int)**  
+* string: the string to trim  
+* int: only allow x characters according to this value  
+```
+php_trim_chars('this is a very long string that should be truncated', 10);
+```
