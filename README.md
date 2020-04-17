@@ -45,7 +45,7 @@ open_graph([
 * img_alt      - a text description of the image (for users who are visually impaired, 320 chars max)
 ```
 twitter_card([
-    "handle"      => '@99porings',
+    "handle"      => "@99porings",
     "title"       => "COVID-19 Live Tracker",
     "description" => "We believe in the power of the internet",
     "img_url"     => 'https://url-path/to-the/image.png',
