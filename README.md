@@ -20,6 +20,7 @@ helper framework for PHP
 * int: only allow x characters according to this value  
 ```
 php_trim_chars('this is a very long string that should be truncated', 10);
+// returns 'this is a '
 ```
   
 **open_graph([title, description, img_url, img_alt])**  
